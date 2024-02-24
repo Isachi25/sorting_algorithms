@@ -27,5 +27,7 @@ void cocktail_sort_list(listint_t **list);
 void swap(listint_t *a, listint_t *b);
 void counting_sort(int *array, size_t size);
 int integer_count(int *array, size_t size, int range);
+void merge_sort(int *array, size_t size);
+void merge_compare(int *array, size_t start, size_t stop, int *new);
 
 #endif
